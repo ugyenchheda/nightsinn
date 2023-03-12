@@ -127,10 +127,6 @@ function my_theme_register_required_plugins() {
 
 
 
-/* ------------------------------------------------
-	Comments Template
------------------------------------------------- */
-
 if( ! function_exists( 'qns_comments' ) ) {
 	function qns_comments($comment, $args, $depth) {
 	   $path = get_template_directory_uri();
