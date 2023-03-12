@@ -1,0 +1,157 @@
+.clearfix {
+	zoom: 1;
+}
+
+.clearfix:before, .clearfix:after{
+	content: "";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.admin-notice {
+	background: #ffffe0;
+	color: #333;
+	border: #E6DB55 1px solid;
+	padding: 12px;
+	width: 80%;
+	max-width: 800px;
+	font-size: 12px;
+	line-height: 160%;
+	-webkit-border-radius: 3px; 
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+}
+
+/* Reset ugly box shadow on input focus */
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="file"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="url"]:focus, select:focus {
+	box-shadow:none;
+}
+
+#slideshow_meta_box,
+#testimonial_meta_box,
+#post_meta_box,
+#custom_meta_box {
+	background: #fcfcfc !important;
+}
+
+.slideshow_images {
+	margin: 10px 0 0 0 !important;
+}
+
+.slideshow_images li.image img {
+	width: 100%;
+	-webkit-border-radius: 1px; 
+	-moz-border-radius: 1px;
+	-o-border-radius: 1px;
+	border-radius: 1px;
+}
+
+.slideshow_images li.image {
+	border: #d5d5d5 1px solid;
+	position: relative;
+	float: left;
+	width: 75px;
+	height: 75px;
+	margin: 0 7px 7px 0;
+	cursor: move;
+	-webkit-border-radius: 2px; 
+	-moz-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
+	overflow: hidden;
+}
+
+.slideshow_images li.image:hover {
+	cursor: move;
+}
+
+.slideshow_images li.image .delete_slide {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	background: url(../admin/assets/images/delete.png);
+	color: #464646;
+	width: 14px;
+	height: 14px;
+	text-indent: -9999px;
+}
+
+p.add_images_wrapper {
+	margin: 0 0 15px 0 !important;
+}
+
+#qns_slideshow .inside {
+	padding-right: 0 !important;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.checkbox-label {
+	margin: 0 0 0 10px;
+}
+
+.appearance_page_optionsframework #setting-error-tgmpa {
+	position: absolute;
+	top: 8px;
+	right: 145px;
+}
+
+/* shared CSS styles */
+
+.field-wrapper {
+	max-width: 700px;
+}
+
+.field-padding {
+	padding: 18px;
+}
+
+.field-padding-below {
+	padding: 0 18px 18px 18px;
+}
+
+.field-padding-above {
+	padding: 18px 18px 0 18px;
+}
+
+.field-padding-none {
+	padding: 0;
+}
+
+.one-fifth {
+	float: left;
+	width: 24%;
+	margin: 0 2% 0 0;
+}
+
+.two-fifths {
+	float: left;
+	width: 35%;
+	margin: 0 2% 0 0;
+}
+
+.four-fifths {
+	float: left;
+	width: 72%;
+	margin: 0 2% 0 0;
+}
+
+.space1 {
+	height: 1px;
+	background: #dfdfdf;
+	border: none;
+}
+
+.space1:last-child {
+	display: none;
+}
