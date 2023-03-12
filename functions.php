@@ -42,11 +42,6 @@ function qns_setup() {
 endif;
 
 
-
-/* ------------------------------------------------
-	Required Plugins
------------------------------------------------- */
-
 require_once ('includes/class-tgm-plugin-activation.php');
 add_action( 'tgmpa_register', 'my_theme_register_required_plugins' );
 function my_theme_register_required_plugins() {
