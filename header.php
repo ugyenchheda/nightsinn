@@ -147,12 +147,6 @@ include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
 		 ?>
 </div>
 
-<div class="spacer"></div>
-                
-				<!-- .main-navigation -->
-				
-
-			<!-- END .content-wrapper -->
 			</div>
 		
 		</div>
