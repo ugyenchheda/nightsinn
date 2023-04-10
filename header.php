@@ -6,10 +6,6 @@ include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
 ?>
 
 <!DOCTYPE html>
-<!--[if lt IE 7]> <html <?php language_attributes(); ?> class="ie6"> <![endif]-->
-<!--[if IE 7]>    <html <?php language_attributes(); ?> class="ie7"> <![endif]-->
-<!--[if IE 8]>    <html <?php language_attributes(); ?> class="ie8"> <![endif]-->
-<!--[if gt IE 8]><!--> <html <?php language_attributes(); ?>> <!--<![endif]-->
 
 <!-- BEGIN head -->
 <head>
